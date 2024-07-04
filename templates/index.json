@@ -1,16 +1,31 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "hero": {
-            "type": "hero"
-        },
-        "test": {
-            "type": "test"
-        }
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "text_description": "Client-First is a set of guidelines and strategies to help us build Webflow websites. Built and managed by Finsweet &amp; Roelu. This project contains a style guide page with the pre-built classes that come with the Client-First style system."
+      }
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero",
-        "test"
-    ]
+    "hero_epBFpC": {
+      "type": "hero",
+      "settings": {
+        "text_description": "Test"
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero",
+    "hero_epBFpC"
+  ]
 }
