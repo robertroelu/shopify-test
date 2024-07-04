@@ -9,6 +9,12 @@
 */
 {
   "sections": {
+    "hero_epBFpC": {
+      "type": "hero",
+      "settings": {
+        "text_description": "Test"
+      }
+    },
     "hero": {
       "type": "hero",
       "settings": {
@@ -19,19 +25,13 @@
       "type": "test",
       "settings": {
       }
-    },
-    "hero_epBFpC": {
-      "type": "hero",
-      "settings": {
-        "text_description": "Test"
-      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
+    "hero_epBFpC",
     "hero",
-    "test_MdEyAi",
-    "hero_epBFpC"
+    "test_MdEyAi"
   ]
 }
