@@ -15,13 +15,7 @@
         "text_description": "Test"
       }
     },
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "text_description": "Client-First is a set of guidelines and strategies to help us build Webflow websites. Built and managed by Finsweet &amp; Roelu. This project contains a style guide page with the pre-built classes that come with the Client-First style system."
-      }
-    },
-    "test_MdEyAi": {
+    "test_qtLRGL": {
       "type": "test",
       "settings": {
       }
@@ -31,7 +25,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_epBFpC",
-    "hero",
-    "test_MdEyAi"
+    "test_qtLRGL"
   ]
 }
