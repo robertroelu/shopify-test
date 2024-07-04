@@ -1,6 +1,6 @@
 {
     "sections": [],
-    "layout": "theme",
+    "layout": "page.global-modal",
     "wrapper": "",
     "order": []
 }
