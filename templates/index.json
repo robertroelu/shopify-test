@@ -8,27 +8,22 @@
 * ------------------------------------------------------------
 */
 {
-  "sections": {
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "image_bild": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "text_headline": "Short heading here",
-        "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
-        "url_button_link": "",
-        "text_button_text": "More Information"
-      }
+    "sections": {
+        "heromy": {
+            "type": "heromy"
+        },
+        "test": {
+            "type": "test"
+        },
+        "hero": {
+            "type": "hero"
+        }
     },
-    "test": {
-      "type": "test",
-      "settings": {
-      }
-    }
-  },
-  "layout": "theme",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "hero",
-    "test"
-  ]
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "heromy",
+        "test",
+        "hero"
+    ]
 }
