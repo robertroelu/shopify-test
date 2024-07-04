@@ -1,28 +1,6 @@
 {
-    "sections": {
-        "liquify_hero": {
-            "type": "liquify_hero"
-        },
-        "hero": {
-            "type": "hero"
-        },
-        "category": {
-            "type": "category"
-        },
-        "links": {
-            "type": "links"
-        },
-        "content": {
-            "type": "content"
-        }
-    },
+    "sections": [],
     "layout": "theme",
     "wrapper": "main.main-wrapper",
-    "order": [
-        "liquify_hero",
-        "hero",
-        "category",
-        "links",
-        "content"
-    ]
+    "order": []
 }
