@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-wf-page="6685f4054e5d2a5fe7527742" data-wf-site="6685f4054e5d2a5fe7527708" lang="en"><head><meta charset="utf-8">
+<html data-wf-page="6685f4054e5d2a5fe7527751" data-wf-site="6685f4054e5d2a5fe7527708" lang="en"><head><meta charset="utf-8">
 <title>{{ page_title }}</title><meta content="{{ page_description }}" name="description">
 <meta content="{{ page_title }}" property="og:title">
 <meta content="{{ page_description }}" property="og:description">
@@ -40,8 +40,34 @@
 }
 </style><meta name="theme-color" content="#000" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#fff" media="(prefers-color-scheme: dark)">
-<script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
-<body>
+<script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ article.title }} ",
+      "image": "{{ article.image | img_url: 'medium' }}",
+      "genre": "{{ blog.title }}",
+       "mainEntityOfPage": {
+          "@type": "WebPage",
+           "@id": "{{ article.url }}"
+      },
+      "publisher": {
+       "@type": "Organization",
+        "name": "{{ shop.address.company }}",
+        "email": "{{ shop.email }}",
+        "address": "{{ shop.address }}"
+      },
+      "url": "{{ article.url }}",
+      "datePublished": "{{ article.published_at }}",
+      "dateCreated": "{{ article.created_at }}",
+      "dateModified": "{{ article.updated_at }}",
+      "description": "{{ page_description }}",
+        "author": {
+         "@type": "Person",
+         "name": "{{ shop.address.company }}"
+       }
+      }
+</script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
+<body li-page="article">
 
 <div class="page-wrapper">{% render 'global_styles' %}
 {% section 'header' %}
