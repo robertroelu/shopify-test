@@ -20,12 +20,18 @@
       "settings": {
         "text_description": "Test"
       }
+    },
+    "test_MdEyAi": {
+      "type": "test",
+      "settings": {
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
     "hero",
-    "hero_epBFpC"
+    "hero_epBFpC",
+    "test_MdEyAi"
   ]
 }
