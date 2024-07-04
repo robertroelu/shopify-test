@@ -1,6 +1,12 @@
 {
-    "sections": [],
+    "sections": {
+        "hero": {
+            "type": "hero"
+        }
+    },
     "layout": "theme",
     "wrapper": "main.main-wrapper",
-    "order": []
+    "order": [
+        "hero"
+    ]
 }
