@@ -1,44 +1,20 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
-  "sections": {
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "image_bild": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "text_headline": "Short heading here",
-        "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
-        "url_button_link": "",
-        "text_button_text": "More Information"
-      }
+    "sections": {
+        "heromy": {
+            "type": "heromy"
+        },
+        "test": {
+            "type": "test"
+        },
+        "hero": {
+            "type": "hero"
+        }
     },
-    "test": {
-      "type": "test",
-      "settings": {
-      }
-    },
-    "heromy_nWj3jY": {
-      "type": "heromy",
-      "settings": {
-        "text_heading": "Client-First &amp; Roelu Official Starter Project",
-        "text_description": "Client-First is a set of guidelines and strategies to help us build Webflow websites. Built and managed by Finsweet &amp; Roelu. This project contains a style guide page with the pre-built classes that come with the Client-First style system.",
-        "image_mb_photo": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg",
-        "image_ds_photo": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
-      }
-    }
-  },
-  "layout": "theme",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "hero",
-    "test",
-    "heromy_nWj3jY"
-  ]
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "heromy",
+        "test",
+        "hero"
+    ]
 }
