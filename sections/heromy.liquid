@@ -1,50 +1,15 @@
-<div container='global' class='fs-hero_container'>
-  <div class='fs-hero_list'>
-    <div
-      id='w-node-_62d80414-106d-ebb9-c04a-7bd9339459cd-59562381'
-      class='fs-hero_content'
-    >
-      <h1 class='fs-hero_heading'>
-        {{ section.settings.text_ }}
-      </h1>
-      <p>
-        {{ section.settings.text_description }}
-      </p>
-    </div>
-    <img
-      class='fs-hero_image mobile'
-      src='{{ section.settings.image_mb_photo | img_url: 'master' }}'
-      alt='{{ section.settings.image_mb_photo.alt }}'
-      loading='lazy'
-    >
-    <img
-      class='fs-hero_image'
-      src='{{ section.settings.image_ds_photo | img_url: 'master' }}'
-      alt='{{ section.settings.image_ds_photo.alt }}'
-      loading='lazy'
-    >
-  </div>
-</div>
-{% schema %}
-{
-  "tag": "section",
-  "name": "heromy",
-  "class": "fs-section_hero",
-  "settings": [
-    {
-      "id": "text",
-      "type": "text",
-      "default": "Client-First &amp; Roelu Official Starter Project"
-    },
-    {
-      "id": "text_description",
-      "type": "text",
-      "label": "description",
-      "default": "Client-First is a set of guidelines and strategies to help us build Webflow websites. Built and managed by Finsweet &amp; Roelu. This project contains a style guide page with the pre-built classes that come with the Client-First style system."
-    },
-    { "id": "image_mb_photo", "type": "image_picker", "label": "mb-photo" },
-    { "id": "image_ds_photo", "type": "image_picker", "label": "ds-photo" }
-  ],
-  "presets": [{ "name": "heromy", "category": "Liquify" }]
-}
-{% endschema %}
+<div container="global" class="fs-hero_container"><div class="fs-hero_list"><div id="w-node-_62d80414-106d-ebb9-c04a-7bd9339459cd-59562381" class="fs-hero_content"><h1 class="fs-hero_heading">
+{{ section.settings.text_ }}
+</h1>
+<p>
+{{ section.settings.text_description }}
+</p>
+</div><img class="fs-hero_image mobile"
+     src="{{ section.settings.image_mb_photo | img_url: 'master' }}"
+     alt="{{ section.settings.image_mb_photo.alt }}"
+     loading="lazy">
+<img class="fs-hero_image"
+     src="{{ section.settings.image_ds_photo | img_url: 'master' }}"
+     alt="{{ section.settings.image_ds_photo.alt }}"
+     loading="lazy">
+</div></div> {% schema %} {"tag":"section","name":"heromy","class":"fs-section_hero","settings":[{"id":"text","type":"text","default":"Client-First &amp; Roelu Official Starter Project"},{"id":"text_description","type":"text","label":"description","default":"Client-First is a set of guidelines and strategies to help us build Webflow websites. Built and managed by Finsweet &amp; Roelu. This project contains a style guide page with the pre-built classes that come with the Client-First style system."},{"id":"image_mb_photo","type":"image_picker","label":"mb-photo"},{"id":"image_ds_photo","type":"image_picker","label":"ds-photo"}],"presets":[{"name":"heromy","category":"Liquify"}]} {% endschema %}
