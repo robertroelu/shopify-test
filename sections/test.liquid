@@ -8,6 +8,7 @@
 ></div>
 {% if section.settings.show_image == 'desktop' %}
   <div
+    li-if='section.settings.show_image == true'
     id='w-node-_55696215-6c1e-8849-d993-58e8a754f287-59562381'
     class='test-div-blue'
   >
@@ -21,6 +22,7 @@
 {% endif -%}
 {%- if section.settings.show_image == 'mobile' %}
   <div
+    li-if="section.settings.show_image == 'mobile'"
     id='w-node-_7e321f6f-3e44-b22f-6193-0bce9c970f13-59562381'
     class='test-div-blue-mobile'
   >
