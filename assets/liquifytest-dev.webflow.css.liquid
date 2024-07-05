@@ -792,7 +792,6 @@ figcaption {
   justify-content: start;
   align-items: start;
   justify-items: start;
-  max-width: 70rem;
   display: grid;
   position: relative;
 }
@@ -811,6 +810,7 @@ figcaption {
 
 .fs-hero_list {
   grid-column-gap: var(--spacing--7rem);
+  grid-row-gap: var(--text-size--1rem);
   grid-template-rows: auto;
   grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr) minmax(auto, 1fr);
   grid-auto-columns: 1fr;
@@ -1315,10 +1315,14 @@ figcaption {
 }
 
 #w-node-_62d80414-106d-ebb9-c04a-7bd9339459cd-59562381 {
-  grid-area: 1 / 1 / 2 / 7;
+  grid-area: 1 / 1 / 2 / 13;
 }
 
-#w-node-_4de12fba-dcef-1584-23f8-8fb7b41862be-59562381, #w-node-_667afda3-47fb-2563-4488-5b96560d9e18-59562381 {
+#w-node-_4de12fba-dcef-1584-23f8-8fb7b41862be-59562381 {
+  grid-area: 2 / 1 / 3 / 13;
+}
+
+#w-node-_667afda3-47fb-2563-4488-5b96560d9e18-59562381 {
   grid-area: 1 / 7 / 2 / 13;
 }
 
